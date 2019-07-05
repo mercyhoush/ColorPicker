@@ -12,6 +12,7 @@
 		97FCDCFD22CE45BD001954E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FCDCFB22CE45BD001954E6 /* Main.storyboard */; };
 		97FCDCFF22CE45C1001954E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97FCDCFE22CE45C1001954E6 /* Assets.xcassets */; };
 		97FCDD0222CE45C1001954E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FCDD0022CE45C1001954E6 /* LaunchScreen.storyboard */; };
+		97FCDD2A22CFAABE001954E6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FCDD2922CFAABE001954E6 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		97FCDCFE22CE45C1001954E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97FCDD0122CE45C1001954E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97FCDD0322CE45C1001954E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97FCDD2922CFAABE001954E6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				97FCDCFE22CE45C1001954E6 /* Assets.xcassets */,
 				97FCDD0022CE45C1001954E6 /* LaunchScreen.storyboard */,
 				97FCDD0322CE45C1001954E6 /* Info.plist */,
+				97FCDD2922CFAABE001954E6 /* Color.swift */,
 			);
 			path = ColorPicker;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				97FCDCFA22CE45BD001954E6 /* ViewController.swift in Sources */,
 				97FCDCF822CE45BD001954E6 /* AppDelegate.swift in Sources */,
+				97FCDD2A22CFAABE001954E6 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MercyHoush.ColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MercyHoush.ColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
